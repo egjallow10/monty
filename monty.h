@@ -61,7 +61,7 @@ extern state_t global;
 
 /* handlerss */
 void add(stack_t **stack, unsigned int line_number);
-void div(stack_t **stack, unsigned int line_number);
+void _div(stack_t **stack, unsigned int line_number);
 void exec_line_ops(char *line, size_t line_num);
 void free_at_exit(void);
 void mul(stack_t **stack, unsigned int line_number);
