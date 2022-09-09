@@ -63,3 +63,4 @@ extern state_t global;
 void add(stack_t **stack, unsigned int line_number);
 void div(stack_t **stack, unsigned int line_number);
 void exec_line_ops(char *line, size_t line_num);
+void free_at_exit(void);
