@@ -22,16 +22,16 @@ void fetch_instruction(char *cmd, size_t line_num)
 {
 	int i = 0;
 	static const instruction_t ops[] = {
-		{"push", _push},
-		{"pall", _pall},
-		{"pint", _pint},
-		{"pop", _pop},
-		{"swap", _swap},
-		{"add", _add},
-		{"nop", _nop},
-		{"sub", _sub},
+		{"push", push},
+		{"pall", pall},
+		{"pint", pint},
+		{"pop", pop},
+		{"swap", swap},
+		{"add", add},
+		{"nop", nop},
+		{"sub", sub},
 		{"div", _div},
-		{"mul", _mul},
+		{"mul", mul},
 		{NULL, NULL}
 	};
 
