@@ -57,3 +57,7 @@ typedef struct global_state
 } state_t;
 
 extern state_t global;
+
+
+/* handlerss */
+void add(stack_t **stack, unsigned int line_number);
