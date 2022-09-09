@@ -71,3 +71,10 @@ void sub(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
+void push(stack_t **stack, unsigned int line_number);
+void fetch_instruction(char *cmd, size_t line_num);
+void free_at_exit(void);
+void free_stack_t(stack_t *top);
+
+#endif /*_MONTY_H_*/
+
